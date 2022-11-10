@@ -1,1 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 250px 500px;
+  grid-template-rows: 200px 200px;
+}
+/* Top Bar */
+.topbar {
+  width: 100vw;
+}
+.topSection {
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+}
 
+.bell {
+  padding-left: 50px;
+}
+input {
+  width: 300px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background-color: rgb(226, 233, 241);
+  outline: none;
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 25px;
+  font-size: 15px;
+}
+.accountInfo img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.profileImg {
+  margin-left: 20px;
+}
+label {
+  padding-left: 30px;
+}
+.accountName {
+  padding-left: 20px;
+}
+
+.bottomSection {
+  height: 100px;
+}
+.bottomSection img{
+    height: 100px;
+    width: 100px;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+/* Side bar */
+.sidebar {
+  background-color: rgb(28, 148, 211);
+  height: 100vh;
+  grid-row: 1/-1;
+}
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  padding-left: 10px;
+}
+.menu {
+  margin-bottom: 50px;
+}
+.menuText {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.settingsSection {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+#dash {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+/* Content */
+.content {
+  width: 100vw;
+  height: 79vh;
+  background-color: rgba(226, 232, 240, 255);
+}
