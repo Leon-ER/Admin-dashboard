@@ -11,29 +11,35 @@ body {
 }
 /* Top Bar */
 .topbar {
-  width: 100vw;
+  width: 87vw;
+  margin-top: 20px;
 }
 .topSection {
   height: 100px;
-  display: grid;
-  grid-template-columns: repeat(2, 45%);
 }
 
 .bell {
   padding-left: 50px;
 }
 input {
-  width: 300px;
+  width: 1000px;
   border-radius: 12px;
   border: 1px solid transparent;
   background-color: rgb(226, 233, 241);
   outline: none;
-  margin-top: 20px;
   margin-left: 50px;
   height: 25px;
   font-size: 15px;
 }
-.accountInfo img {
+.search {
+  display: flex;
+}
+
+.alignRight {
+  display: flex;
+  margin-left: 100px;
+}
+.search img {
   height: 40px;
   width: 40px;
   border-radius: 20px;
@@ -51,12 +57,40 @@ label {
 
 .bottomSection {
   height: 100px;
+  display: flex;
 }
-.bottomSection img{
-    height: 100px;
-    width: 100px;
-    border-radius: 40px;
-    margin-left: 30px;
+
+.alignCenter {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 20px;
+}
+.bottomSection img {
+  height: 75px;
+  width: 100px;
+  border-radius: 40px;
+  margin-left: 30px;
+}
+.flex {
+  display: flex;
+}
+.buttons {
+  width: 60vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+button {
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+  background-color: #1992d4;
+  color: white;
+  border-radius: 12px;
+  border-color: #1992d4;
+}
+#greet {
 }
 /* Side bar */
 .sidebar {
@@ -88,7 +122,56 @@ label {
 }
 /* Content */
 .content {
-  width: 100vw;
+  width: 87vw;
   height: 79vh;
   background-color: rgba(226, 232, 240, 255);
+  display: flex;
+}
+.projects {
+  width: 75vw;
+  border: 1px solid black;
+}
+.other {
+  width: 25vw;
+  border: 1px solid black;
+}
+.Title {
+  height: 10vh;
+  width: 70vw;
+  font-size: 1.5rem;
+}
+.projectsContent {
+  width: 70vw;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 200px 200px;
+  grid-gap: 20px;
+}
+.project{
+  padding: 10px;
+  background-color: white;
+  border-radius: 12px;
+  border-left: 10px solid orange;
+  box-shadow: -2px 1px 17px 8px rgba(75, 72, 72, 0.72);
+  width: 300px;
+  height: 170px;
+}
+.info {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.project {
+  width: 300px;
+  text-align: justify;
+}
+.titleInfo {
+  font-weight: bold;
+}
+.projectOptions {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 10px;
 }
