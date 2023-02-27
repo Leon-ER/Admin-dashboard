@@ -1,2 +1,2 @@
 # Admin-dashbaord
-Project admin dashboard  (OTP curriculum)
+Project admin dashboard  (TOP curriculum)
